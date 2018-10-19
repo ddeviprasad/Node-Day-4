@@ -1,0 +1,7 @@
+// Details of ssh keys
+
+1. Check for existing ssh key - ls -al ~/.ssh
+2. Generating ssh key - ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+3. copying ssh key - pbcopy < ~/.ssh/id_rsa.pub
+4. After adding ssh key in github account we need to do a connection test.
+5. Connection Test - ssh -T git@github.com
