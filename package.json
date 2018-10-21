@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddeviprasad/Node-Day-4.git"
+  },
+  "author": "Divyaranjan Deviprasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddeviprasad/Node-Day-4/issues"
+  },
+  "homepage": "https://github.com/ddeviprasad/Node-Day-4#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.4"
+  }
+}

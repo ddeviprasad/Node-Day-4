@@ -1,0 +1,4 @@
+mongoose - Object-relational mapping (https://mongoosejs.com/)
+1. https://mongoosejs.com/docs/index.html
+2. https://mongoosejs.com/docs/guide.html
+4. https://mongoosejs.com/docs/validation.html

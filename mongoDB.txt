@@ -1,0 +1,18 @@
+// Installation guide MongoDB
+1. Go to https://www.mongodb.com/download-center/community
+2. Download the mongodb community server.
+3. Unzip the folder rename it to 'mongo' and move it to user directory(Not required)
+4. Create a folder mongo-data in the same user directory to store data
+5. Run this in bin dir - ./mongod --dbpath ~/mongo-data (mongod.exe --dbpath dirName - windows)
+6. To test the connection run ./mongo in the bin directory (mongo.exe) - Windows
+7. Then run db.Test.insert({a: 5}) command
+8. Then run db.Test.find(). You can see all the data
+9. For better viewing of data download robomongo 3T
+
+
+Reference links:- 
+1. http://mongodb.github.io/node-mongodb-native/
+2. https://docs.mongodb.com/manual/reference/method/
+3. https://docs.mongodb.com/manual/core/schema-validation/
+
+Install postman - Go to https://www.getpostman.com/apps
