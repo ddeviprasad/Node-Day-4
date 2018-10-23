@@ -45,7 +45,7 @@ function deleteOne(db) {
 }
 
 function findOneAndDelete(db) {
-    const cursorObject = db.collection('Todos').deleteOne({completed: false});
+    const cursorObject = db.collection('Todos').findOneAndDelete({completed: false});
     cursorObject.then((result) => {
         console.log(result);
     });

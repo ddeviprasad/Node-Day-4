@@ -36,7 +36,20 @@ app.get('/todos/:topic', (req, res) => {
     }, (err) => {
         res.status(400).send(err);
     })
-})
+});
+
+app.patch('/todos/:id', (req, res) => {
+    const id = req.params.id;
+    const { topic, completed } = req.body;
+    Todo.findByIdAndUpdate(id, 
+        {$set: {topic, completed}}, 
+        {new: true}
+    ).then((doc) => {
+        res.send(doc);
+    }, (err) => {
+        res.status(400).send(err);
+    })
+});
 
 app.listen(3000, () => {
     console.log('listening to port 3000');
